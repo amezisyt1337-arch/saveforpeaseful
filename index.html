@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" type="text/css" href="styles.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="icon" type="image/x-icon" href="./assets/favico/default.ico">
+</head>
+<body class="custom-cursor">
+  <!-- Click to enter overlay -->
+  <div id="enter-overlay">
+    <p id="enter-text">click to enter...</p>
+  </div>
+  <!-- Background Elements -->
+  <div id="video-background">
+    <video autoplay muted loop id="myVideo"> <!-- Video background -->
+      <source src="./assets/back/default.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div id="audio-background">
+      <audio autoplay loop id="myAudio"> <!-- Audio background -->
+        <source src="./assets/music/default.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div id="blurred-box">
+      <img id="profile-picture" src="./assets/pfp/default.jpg" alt="Profile Picture">
+      <img id="avatar-frame" src="" alt="Avatar Frame">
+      <p id="username" style="color: white; font-weight: bold; font-size: large;">Непогрешимый</p> <!-- Username -->
+      <!-- User Description -->
+      <div class="user-description">
+        <p id="user-description" style="color: white;">adapter</p>
+      </div>
+      <!-- Links -->
+      <div class="links">
+       <a href="https://discord.com/users/1258876531611275404" target="_blank" rel="noopener noreferrer">
+         <i class="fab fa-discord"></i>
+       </a> 
+       <a href="https://t.me/cultselfharm" target="_blank" rel="noopener noreferrer">
+         <i class="fab fa-telegram"></i> 
+       </a>
+     </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script> <!-- Script for functionality -->
+  <script src="./assets/js/title.js"></script> <!-- Script for title functionality -->
+  <script src="./assets/js/discord.js"></script> <!-- Script for discord functionality -->
+</body>
+</html>
